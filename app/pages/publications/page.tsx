@@ -17,7 +17,6 @@ export default function Page() {
       <div className="body">
             <div className="canvas">
                 <div className="accent-container">
-
                     <div className="bio-text-container" id="pubs">
                         <div className="contact-button">
                             <p>publications</p>
@@ -44,6 +43,17 @@ export default function Page() {
                             </div>
                         </div>
                     </div>
+                    {/* <div className="quote-container">
+                        <h1 id="line1">Is it dark morning?</h1>
+                        <h1 id="line2">my children ask</h1>
+                        <h1 id="line3">in the pre-dawns of winter.</h1>
+                        <h1 id="line4">This time, I don’t know</h1>
+                        <h1 id="line5">the answer. I hope so, my loves,</h1>
+                        <h1 id="line6">I damn sure hope</h1>
+                        <h1 id="line7">this sightless cold</h1>
+                        <h1 id="line8">is the broad back of daylight</h1>
+                        <h1 id="line9">turning around to hold us.</h1>
+                    </div> */}
                     <div className="spacer-bar"></div>
 
                 </div>
