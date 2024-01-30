@@ -188,7 +188,7 @@
     /* font-family: 'Baskerville'; */
 
 
-    font-size: 100%; 
+    font-size: 110%; 
     font-weight: lighter;
     /* text-align: justify; */
     line-height: 1.5;
@@ -339,7 +339,7 @@ strong {
 
     }
     .bio-text-container p {
-        font-size: 16px; 
+        /* font-size: 16px;  */
     }
     #bodyText {
         margin-right: 20px; 
