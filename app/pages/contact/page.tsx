@@ -27,6 +27,8 @@ export default function Page() {
                             </div>
                             <p id="bodyText">
                                 For readings, lectures, classroom visits, or requests for work, contact me at csppoetry@gmail.com
+                                <br/>
+
                             </p>
                             <br/>
                         </div>

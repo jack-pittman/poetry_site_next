@@ -18,6 +18,9 @@ export default function Home() {
         <div className="body">
           <div className="canvas">
             <div className="accent-container">
+              <div id="portrait-container-hidden">
+                  <img src="/media/images/portrait.jpeg" id="portrait" alt="Portait of Caroline Pittman."/>
+              </div>
 
               <div className="quote-container">
                   <h1 id="line1">Is it dark morning?</h1>

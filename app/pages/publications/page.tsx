@@ -42,7 +42,6 @@ export default function Page() {
                                 <br/>
 
                             </div>
-                            <br/>
                         </div>
                     </div>
                     <div className="spacer-bar"></div>

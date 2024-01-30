@@ -153,6 +153,18 @@
 
 
 }
+#portrait-container-hidden {
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 50px;
+    margin-bottom: 75px;
+
+    animation: fadeIn ease 5s; /* Adjust the duration as needed */
+
+
+}
 
 #portrait {
     width: 30%;
@@ -163,8 +175,8 @@
   
 
 .bio-text-container {
-    margin-right: 5%;
-    margin-left: 5%;
+    /* margin-right: 30px;
+    margin-left: 30px; */
     /* margin-top: 500px;  */
 
     text-align: left;
@@ -176,7 +188,7 @@
 
 
 
-    padding: 10px; 
+    padding: 30px; 
     border-radius: 10px;
 }
 
@@ -186,6 +198,9 @@
     font-family: 'Libre Baskerville Regular';
 
     /* font-family: 'Baskerville'; */
+
+    /* margin-right: 30px;
+    margin-left: 30px; */
 
 
     font-size: 105%; 
@@ -220,7 +235,7 @@
     animation: fadeIn ease 1.5s; /* Adjust the duration as needed */
     display: flex; 
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
 }
 
 strong {
@@ -258,8 +273,8 @@ strong {
 
     font-size: 140%;
 
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-top: 10px;
 }
 
 .award-container {
@@ -313,6 +328,8 @@ strong {
         /* margin-bottom: 200px; */
         margin-right: 100px;
         margin-left: 100px;
+
+        display: none;
     }
     .quote-container h1 {
         font-size: 250%;
@@ -325,6 +342,12 @@ strong {
         margin-right: 5%;
         margin-left: 5%;
         margin-bottom: 0px;
+    }
+    #portrait-container {
+        display:none;
+    }
+    #portrait-container-hidden {
+        display: flex;
     }
     #portrait {
         width: 50%;
@@ -343,6 +366,8 @@ strong {
     }
     .bio-text-container p {
         /* font-size: 16px;  */
+        /* margin-right: 20px;
+        margin-left: 20px; */
     }
     #bodyText {
         margin-right: 20px; 
