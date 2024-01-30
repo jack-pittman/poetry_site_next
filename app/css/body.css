@@ -309,14 +309,14 @@ strong {
     }
     .quote-container {
 
-        margin-top: 50vh;
+        /* margin-top: 50vh; */
         /* margin-bottom: 200px; */
         margin-right: 100px;
         margin-left: 100px;
     }
     .quote-container h1 {
         font-size: 250%;
-        margin-bottom: -10vh;
+        /* margin-bottom: -10vh; */
     }
     .title-container {
         width: 100%;
