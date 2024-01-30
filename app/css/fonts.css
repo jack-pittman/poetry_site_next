@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Montserrat Regular';
+    src: url('/public/fonts/Montserrat/static/Montserrat-Regular.ttf') format('woff');
+}
+
+@font-face {
+    font-family: 'Montserrat Medium';
+    src: url('/public/fonts/Montserrat/static/Montserrat-Medium.ttf') format('woff');
+}
+
+@font-face {
+    font-family: 'Libre Baskerville Regular';
+    src: url('/public/fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf') format('woff');
+}
+
+@font-face {
+    font-family: 'Wernicke';
+    src: url('/public/fonts/Wernicke/WernickeSchwabacher.ttf') format('woff');
+}

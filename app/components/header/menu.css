@@ -1,0 +1,67 @@
+@import url('../../css/fonts.css');
+@import url('../../css/colors.css');
+
+
+
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.menu {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+a {
+    text-decoration: none !important;
+
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.menu p {
+    /* font-family: 'Wernicke'; */
+    /* font-family: 'Courier New'; */
+
+    font-family:'Trebuchet MS';
+
+    font-family: 'Montserrat Regular';
+    /* font-family: 'Arial'; */
+
+    font-size: 120%;
+    font-weight: lighter;
+
+    margin-right: 6vmin;
+    margin-left: 6vmin;
+
+    /* color: 'black';  */
+    /* color: #518081; */
+    color: var(--lighter-green);
+
+    user-select: none;
+    text-decoration: none !important;
+}
+
+#caroline-pittman-text {
+
+    color: white; 
+}
+
+@media (max-width: 1000px) {
+    .menu {
+        display: none; 
+    }
+}
+
+/* menu.css */
+#activeLink {
+    /* color: #c3e7e7;  */
+    /* color: var(--dust-brown); */
+    animation: fadeIn ease 3s; 
+
+}

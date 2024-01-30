@@ -1,0 +1,69 @@
+@import url('../../../css/fonts.css');
+@import url('../../../css/colors.css');
+
+
+/* menuButton.css */
+
+.menu-container {
+    position: relative;
+    z-index: 1; /* Ensure the menu icon appears above other elements */
+  }
+  
+  #menuIcon {
+    cursor: pointer;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    backdrop-filter: blur(5px); /* Apply a blur effect to the background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 2; /* Ensure the overlay appears above other elements */
+
+    animation: fadeIn 0.3s ease-in-out; /* Add the fade-in animation */
+
+  }
+  
+  .overlay a {
+    color: white; /* Set the text color to white or your preferred color */
+    text-decoration: none;
+    margin: 10px;
+    font-size: 18px;
+  }
+  
+  .overlay a:hover {
+    text-decoration: underline;
+  }
+  .overlay p {
+    font-family: 'Courier New';
+    font-family: 'Montserrat Regular';
+    font-family: 'Arial';
+
+    font-size: 100%;
+    font-weight: regular;
+
+    margin-right: 6vmin;
+    margin-left: 6vmin;
+
+    color: var(--lightest-green);
+
+    user-select: none;
+    text-decoration: none !important;
+  }
+
+  @keyframes fadeIn {
+    from {
+      background: rgba(0, 0, 0, 0); /* Start with a fully transparent background */
+    }
+    to {
+      background: rgba(0, 0, 0, 0.5); /* Transition to a semi-transparent black background */
+    }
+  }
+  

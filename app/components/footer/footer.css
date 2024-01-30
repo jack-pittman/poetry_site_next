@@ -1,0 +1,26 @@
+@import url('../../css/fonts.css');
+@import url('../../css/colors.css');
+
+#footer {
+    /* background-color: teal; */
+    /* background-color: var(--dark-gray); */
+    background-color: var(--dark-green);
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer p {
+    font-family: 'Libre Baskerville Regular';
+    font-family: 'Montserrat Medium';
+    font-family:'Courier New';
+
+    font-weight: lighter; 
+    font-size: 14px;
+    color: #a3c8c8; 
+    color: #998f84;
+    color: var(--lighter-green);
+
+ }

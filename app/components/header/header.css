@@ -1,0 +1,142 @@
+@import url('../../css/fonts.css');
+@import url('../../css/colors.css');
+
+#mobileHeaderText {
+    display: none;
+}
+
+#simpleSiteLogo {
+
+    display: block;
+    /* display: none; */
+
+    width: 200px;
+
+    margin-top: 4%;
+    margin-bottom: 4%;
+
+    z-index: 10;
+}
+
+#myFuckingSiteHeader {
+    /* background-color: #4d7e80; */
+    /* background-color: var(--cream-accent); */
+    background-color: var(--medium-green);
+    background-color: var(--dark-green);
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+    padding: 0px;
+
+    height: 100px;
+
+    z-index: 10;
+
+}
+
+.menu-container {
+    margin-left: auto; 
+    margin-right: 5%;
+}
+#menuIcon {
+    display: none; 
+}
+
+#siteLogo {
+    width: 250px;
+
+    margin-top: 5%;
+    
+}
+
+p {
+    font-family: 'Monsterrat Medium';
+    /* font-family: 'Courier New'; */
+
+
+    
+    font-size: 130%;
+    font-weight: bold;
+
+    margin-right: 3vmin;
+    margin-left: 3vmin;
+
+    color: #E7E1C9;
+    color: #a3c8c8; 
+}
+
+#caroline-pittman-text {
+
+    /* color: #E7E1C9;  */
+    margin-right: 100px; 
+}
+
+@media (max-width: 1000px) {
+    #header {
+        height: 100px; 
+        /* background-color: #3a5e5f;  */
+        /* background-color: 'white'; */
+
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+    }
+    .menu {
+        display: none; 
+    }
+    #menuIcon {
+        margin-top: 15px;
+        display: block;
+        font-size: 22px; 
+    }
+    #caroline-pittman-text {
+
+        margin-right: 0px; 
+    }
+
+    #simpleSiteLogo {
+
+        display: none;
+        /* display: none; */
+
+        width: 500px;
+
+        margin-top: 4%;
+        margin-bottom: 4%;
+
+        z-index: 10;
+    }
+    #siteLogo {
+        display: none;
+    }
+    #mobileHeaderText {
+        display: block;
+
+        font-family: 'Baskerville';
+        color: var(--lightest-green);
+    }
+}
+
+#myFuckingSiteHeader {
+    height: 100px; 
+    /* background-color: #3a5e5f;  */
+
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.menu {
+    display: none; 
+}
+#caroline-pittman-text {
+
+    margin-right: 0px; 
+}
+
+#siteLogo {
+    display: none;
+}

@@ -1,0 +1,432 @@
+@import url('./fonts.css');
+@import url('./colors.css');
+
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.body {
+    width: 100%;
+    margin-bottom: 0px;
+
+    /* background-image: url('../../public/media/backgrounds/lakeSide.jpeg'); */
+
+    background-attachment: fixed;
+    background-size: cover; /* Adjust the value based on your preference */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    user-select: none; 
+
+    z-index: 1;
+}
+
+
+.canvas {
+    background-color: var(--cream-accent);
+    background-color: transparent;
+
+    backdrop-filter: blur(6px);
+
+
+    padding: 0px;
+
+    width: 100%;
+
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-bottom: 0px;
+    /* margin-top: 10px; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 0px;
+    /* animation: fadeIn ease 1s;  */
+
+}
+
+#pubs {
+    margin-top: 20px; 
+    margin-bottom: 50px;
+}
+#contact {
+    /* margin-top: 20px;  */
+    /* margin-bottom: 50px; */
+
+    /* flex-basis: 66%; */
+
+}
+#about {
+    margin-top: 20px; 
+    margin-bottom: 10px;
+}
+
+.quote-container {
+    color: #7b7b79;
+    color: var(--lighter-green); 
+    /* color: var(--dark-green); */
+
+
+    margin-top: 100px;  
+    margin-bottom: 100px;  
+
+    animation: fadeIn ease 0.5s; /* Adjust the duration as needed */
+
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+
+}
+
+.quote-container h1{
+    font-family: 'Wernicke';
+    font-family: 'Luminari';
+    /* font-family: 'Trebuchet MS'; */
+    font-weight: bold;
+
+
+    font-size: 300%; 
+    /* margin-top: 80px; */
+
+    /* margin-bottom: 40px;  */
+    margin-bottom: 20px; 
+
+    text-align: center; 
+}
+.quote-container h4 {
+    font-family: 'Montserrat Regular';
+    font-style: italic;
+    font-size: 110%;
+
+    text-align: center; 
+    margin-bottom: 100px; 
+    margin-top: 0px; 
+}
+
+
+#headerName {
+    width: 100%;
+}
+
+.accent-container {
+    background-color: #D3CDB8;
+    background-color: transparent;
+
+    /* padding: 3%; */
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 0px;
+
+    border-radius: 0px;
+}
+
+.contact-row {
+    display: flex; 
+    flex-direction: column;
+
+    justify-content: flex-start;
+}
+
+.image-container {
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 0px;
+}
+
+#portrait-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 75px;
+    margin-bottom: 75px;
+
+    animation: fadeIn ease 5s; /* Adjust the duration as needed */
+
+
+}
+
+#portrait {
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    object-fit: cover; 
+}
+  
+
+.bio-text-container {
+    margin-right: 5%;
+    margin-left: 5%;
+    /* margin-top: 500px;  */
+
+    text-align: left;
+
+    /* background-color: #408F91;
+    background-color: #404040; */
+    /* background-color: var(--dark-gray); */
+    background-color: var(--dust-brown);
+
+
+
+    padding: 30px; 
+    border-radius: 10px;
+}
+
+.bio-text-container p {
+    /* font-family: 'Roboto'; */
+    font-family: 'Montserrat Regular';
+    font-family: 'Libre Baskerville Regular';
+
+    font-family: 'Baskerville';
+
+
+    font-size: 18px; 
+    font-weight: lighter;
+    /* text-align: justify; */
+    line-height: 1.5;
+ 
+    /* color: #9d9287; */
+    color: var(--dark-brown);
+
+    animation: fadeIn ease 1s; /* Adjust the duration as needed */
+
+}
+
+.bio-text-container a {
+    text-decoration: none !important;
+    color: var(--dark-brown);
+    /* color: var(--dark-green); */
+}
+  
+#pubType {
+    font-size: 14px;
+    
+    text-align: left;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    font-weight: bold;
+
+    animation: fadeIn ease 0s; /* Adjust the duration as needed */
+}
+#bodyText {
+    animation: fadeIn ease 1.5s; /* Adjust the duration as needed */
+    display: flex; 
+    flex-direction: column;
+    gap: 0px;
+}
+
+strong {
+    color: var(--dark-brown);
+}
+
+.contact-button {
+    /* background-color: var(--dark-gray); */
+    /* background-color: var(--lighter-green); */
+
+    /* border-radius: 10px;  */
+
+    /* margin-right: -15px;
+    margin-left: -15px;  
+
+    margin-bottom: -5px;
+    margin-top: -10px; */
+}
+
+.contact-button p {
+    /* color: #404040; */
+    /* color: var(--dark-green); */
+    color: var(--dark-gray);
+    color: var(--dark-brown);
+
+    /* padding: 2px;  */
+
+    font-family: 'Trebuchet MS';
+    font-family: 'Libre Baskerville Regular';
+
+    font-family: 'Baskerville';
+
+    font-weight: bold; 
+    text-align: center; 
+
+    font-size: 22px;
+}
+
+.award-container {
+    width: 100%;
+    padding: 10%;
+    box-sizing: border-box; /* Include padding in the width calculation */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    animation: fadeIn ease 2.5s; /* Adjust the duration as needed */
+}
+
+.award-container img {
+    width: 50%;
+    max-width: 100%; /* Ensure images don't exceed their container */
+}
+
+.bookend-container {
+   padding: 5%;
+}
+
+@media (max-width: 1000px) {
+    .body {
+        width: 100%;
+
+        /* background-image: url('../../../public/media/woodenBridge.jpg'); */
+        background-attachment: fixed;
+
+        margin-bottom: 0px;
+    }
+
+    .canvas {
+
+        /* padding: 20px; */
+
+        margin-right: 0%;
+        margin-left: 0%;
+        margin-bottom: 50px;
+    }
+    .contact-row {
+        flex-direction: column;
+    
+        
+    }
+    .quote-container {
+
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+    .quote-container h1 {
+        font-size: 200%;
+    }
+    .title-container {
+        width: 100%;
+    }
+    .image-container {
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-bottom: 0px;
+    }
+    #portrait {
+        width: 50%;
+        height: 50%;
+        border-radius: 50%; /* Use 50% to create a circular shape */
+        object-fit: cover; /* Prevent stretching, use cropping instead */
+    }
+    .bio-text-container {
+        padding: 10px; 
+
+        margin-right: 5%;
+        margin-left: 5%;
+
+        /* font-size: 10px;  */
+
+    }
+    .bio-text-container p {
+        font-size: 16px; 
+    }
+    #bodyText {
+        margin-right: 20px; 
+        margin-left: 20px; 
+    }
+    .accent-container {
+        padding: 0px; 
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+
+    .award-container {
+        flex-direction: column;
+        /* align-items: flex-start; */
+        gap: 30px;
+    }
+
+    .award-container img {
+        width: 70%;
+    }
+    .contact-button p {
+        font-size: 24px;
+    }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+#worksLine1 {
+    animation: fadeIn ease 0.5s;
+    animation-fill-mode: forwards;
+}
+
+#worksLine2 {
+    animation: fadeIn ease 0.7s;
+    animation-fill-mode: forwards;
+}
+
+#worksLine3 {
+    animation: fadeIn ease 0.9s;
+    animation-fill-mode: forwards;
+}
+
+#worksLine4 {
+    animation: fadeIn ease 1.1s;
+    animation-fill-mode: forwards;
+}
+
+#worksLine5 {
+    animation: fadeIn ease 1.3s;
+    animation-fill-mode: forwards;
+}
+
+#worksLine6 {
+    animation: fadeIn ease 1.5s;
+    animation-fill-mode: forwards;
+}
+
+#worksLine7 {
+    animation: fadeIn ease 1.7s;
+    animation-fill-mode: forwards;
+}
+
+#worksLine8 {
+    animation: fadeIn ease 1.9s;
+    animation-fill-mode: forwards;
+}
+
+#worksLine9 {
+    animation: fadeIn ease 2.1s;
+    animation-fill-mode: forwards;
+}
+
+#worksLine10 {
+    animation: fadeIn ease 2.3s;
+    animation-fill-mode: forwards;
+}
+
+#worksLine11 {
+    animation: fadeIn ease 2.5s;
+    animation-fill-mode: forwards;
+}
+#footnote {
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+
+
+    margin-top: 50px;
+}

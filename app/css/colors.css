@@ -1,0 +1,24 @@
+/* colors.css */
+
+:root {
+    /* --cream-accent: #E7E1C9; */
+    --cream-accent: #f9f2d8;
+
+    --cream-base: #D3CDB8;
+    --dark-gray: #2f2f24;
+    --dark-brown: #6b6656;
+    --blood-red: #994545;
+
+    --dust-brown: #b9ae92;
+    --medium-gray: #95956d;
+
+    --dark-green: #174848;
+    --darker-green: #264647;
+    --medium-green: #3a5e5f;
+    --lighter-green: #658885;
+    --second-lightest-green: #a7d2d2;
+    --lightest-green: #c3e7e7;
+
+    --medium-blue-green: #275f7a;
+
+  }

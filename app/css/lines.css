@@ -1,0 +1,35 @@
+h1 {
+    position: absolute;
+    opacity: 0;
+    animation: fade 8s linear forwards; /* Set iteration count to 1 */
+    text-align: center;
+    width: 100%;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  
+  #line1 { animation-delay: 0s; }
+  #line2 { animation-delay: 8s; }
+  #line3 { animation-delay: 16s; }
+  #line4 { animation-delay: 24s; }
+  #line5 { animation-delay: 32s; }
+  #line6 { animation-delay: 40s; }
+  #line7 { animation-delay: 48s; }
+  #line8 { animation-delay: 56s; }
+  #line9 { animation-delay: 64s; }
+  
+  @keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    33% {
+      opacity: 1;
+    }
+    66% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
