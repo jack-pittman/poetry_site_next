@@ -188,7 +188,7 @@
     /* font-family: 'Baskerville'; */
 
 
-    font-size: 110%; 
+    font-size: 105%; 
     font-weight: lighter;
     /* text-align: justify; */
     line-height: 1.5;
@@ -220,7 +220,7 @@
     animation: fadeIn ease 1.5s; /* Adjust the duration as needed */
     display: flex; 
     flex-direction: column;
-    gap: 0px;
+    gap: 10px;
 }
 
 strong {
@@ -248,7 +248,7 @@ strong {
 
     /* padding: 2px;  */
 
-    font-family: 'Trebuchet MS';
+    font-family: 'Montserrat Regular';
     font-family: 'Libre Baskerville Regular';
 
     /* font-family: 'Baskerville'; */
@@ -309,11 +309,13 @@ strong {
     }
     .quote-container {
 
-        margin-top: 50px;
-        margin-bottom: 100px;
+        /* margin-top: 50px; */
+        margin-bottom: 200px;
+        margin-right: 100px;
+        margin-left: 100px;
     }
     .quote-container h1 {
-        font-size: 200%;
+        font-size: 400%;
     }
     .title-container {
         width: 100%;

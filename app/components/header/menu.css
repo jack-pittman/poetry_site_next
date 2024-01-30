@@ -26,6 +26,9 @@ a:hover {
 
 .menu p {
     font-family: 'Montserrat Regular';
+    /* font-family: 'Libre Baskerville Regular'; */
+    font-family: 'Courier New';
+
 
     font-size: 120%;
     font-weight: lighter; 

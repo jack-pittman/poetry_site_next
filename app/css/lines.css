@@ -3,7 +3,7 @@ h1 {
     opacity: 0;
     animation: fade 8s linear forwards; /* Set iteration count to 1 */
     text-align: center;
-    width: 100%;
+    width: 90%;
     margin-right: 20px;
     margin-left: 20px;
   }
@@ -32,4 +32,9 @@ h1 {
       opacity: 0;
     }
   }
-  
+
+  @media (max-width: 1000px) {
+    h1 {
+      margin-top: 75px;
+    }
+  }
