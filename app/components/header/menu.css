@@ -25,27 +25,20 @@ a:hover {
 }
 
 .menu p {
-    /* font-family: 'Wernicke'; */
-    /* font-family: 'Courier New'; */
-
-    font-family:'Trebuchet MS';
-
     font-family: 'Montserrat Regular';
-    /* font-family: 'Arial'; */
 
     font-size: 120%;
-    font-weight: lighter;
+    font-weight: lighter; 
 
     margin-right: 6vmin;
     margin-left: 6vmin;
 
-    /* color: 'black';  */
-    /* color: #518081; */
     color: var(--lighter-green);
 
     user-select: none;
     text-decoration: none !important;
 }
+
 
 #caroline-pittman-text {
 

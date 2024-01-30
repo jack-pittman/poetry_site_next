@@ -54,7 +54,7 @@
 }
 
 p {
-    font-family: 'Monsterrat Medium';
+    /* font-family: 'Monsterrat Medium'; */
     /* font-family: 'Courier New'; */
 
 
@@ -118,6 +118,8 @@ p {
 
         font-family: 'Baskerville';
         color: var(--lightest-green);
+
+        font-weight: 'normal';
     }
 }
 

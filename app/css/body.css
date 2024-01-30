@@ -89,7 +89,6 @@
 
 .quote-container h1{
     font-family: 'Wernicke';
-    font-family: 'Luminari';
     /* font-family: 'Trebuchet MS'; */
     font-weight: bold;
 
@@ -177,7 +176,7 @@
 
 
 
-    padding: 30px; 
+    padding: 10px; 
     border-radius: 10px;
 }
 
@@ -186,10 +185,10 @@
     font-family: 'Montserrat Regular';
     font-family: 'Libre Baskerville Regular';
 
-    font-family: 'Baskerville';
+    /* font-family: 'Baskerville'; */
 
 
-    font-size: 18px; 
+    font-size: 100%; 
     font-weight: lighter;
     /* text-align: justify; */
     line-height: 1.5;
@@ -252,12 +251,15 @@ strong {
     font-family: 'Trebuchet MS';
     font-family: 'Libre Baskerville Regular';
 
-    font-family: 'Baskerville';
+    /* font-family: 'Baskerville'; */
 
     font-weight: bold; 
     text-align: center; 
 
-    font-size: 22px;
+    font-size: 140%;
+
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .award-container {
@@ -328,10 +330,10 @@ strong {
         object-fit: cover; /* Prevent stretching, use cropping instead */
     }
     .bio-text-container {
-        padding: 10px; 
+        /* padding: 10px;  */
 
-        margin-right: 5%;
-        margin-left: 5%;
+        margin-right: 20px;
+        margin-left: 20px;
 
         /* font-size: 10px;  */
 
