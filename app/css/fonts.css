@@ -17,3 +17,8 @@
     font-family: 'Wernicke';
     src: url('/fonts/Wernicke/WernickeSchwabacher.ttf') format('woff');
 }
+
+@font-face {
+    font-family: 'PW Signature';
+    src: url('/fonts/pwsignaturetwo/PWSignaturetwo.ttf') format('woff');
+}

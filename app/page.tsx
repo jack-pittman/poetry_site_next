@@ -19,7 +19,7 @@ export default function Home() {
           <div className="canvas">
             <div className="accent-container">
               <div id="portrait-container-hidden">
-                  <img src="/media/images/portrait.jpeg" id="portrait" alt="Portait of Caroline Pittman."/>
+                  <div className="oval"></div>
               </div>
 
               <div className="quote-container">
@@ -33,6 +33,7 @@ export default function Home() {
                   <h1 id="line8">is the broad back of daylight</h1>
                   <h1 id="line9">turning around to hold us.</h1>
               </div>
+
 
               {/* ABOUT */}
 

@@ -27,11 +27,11 @@ a:hover {
 .menu p {
     font-family: 'Montserrat Regular';
     /* font-family: 'Libre Baskerville Regular'; */
-    font-family: 'Courier New';
+    /* font-family: 'Courier New'; */
 
 
     font-size: 120%;
-    font-weight: lighter; 
+    font-weight: normal; 
 
     margin-right: 6vmin;
     margin-left: 6vmin;

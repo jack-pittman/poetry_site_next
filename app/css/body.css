@@ -65,13 +65,13 @@
 }
 #about {
     margin-top: 20px; 
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .quote-container {
     color: #7b7b79;
     color: var(--lighter-green); 
-    color: var(--darker-green);
+    /* color: var(--darker-green); */
 
 
     margin-top: 100px;  
@@ -89,8 +89,9 @@
 
 .quote-container h1{
     font-family: 'Wernicke';
-    /* font-family: 'Trebuchet MS'; */
-    font-weight: bold;
+    /* font-family: 'Courier New'; */
+    /* font-family: 'Zapfino'; */
+    /* font-weight: bold; */
 
 
     font-size: 50px; 
@@ -172,7 +173,12 @@
     border-radius: 50%;
     object-fit: cover; 
 }
-  
+.oval {
+    width: 200px; /* Adjust the width as needed */
+    height: 300px; /* Double the height to create a vertical oval */
+    background: linear-gradient(to bottom, var(--lighter-green), var(--dark-green)); /* Your 2-tone gradient colors */
+    border-radius: 50%; /* Makes the element a circle, but in combination with height, creates an oval */
+  }
 
 .bio-text-container {
     /* margin-right: 30px;
@@ -197,7 +203,7 @@
     font-family: 'Montserrat Regular';
     font-family: 'Libre Baskerville Regular';
 
-    /* font-family: 'Baskerville'; */
+    font-family: 'Courier New';
 
     /* margin-right: 30px;
     margin-left: 30px; */
@@ -266,7 +272,7 @@ strong {
     font-family: 'Montserrat Regular';
     font-family: 'Libre Baskerville Regular';
 
-    /* font-family: 'Baskerville'; */
+    font-family: 'Courier New';
 
     font-weight: bold; 
     text-align: center; 

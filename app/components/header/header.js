@@ -14,7 +14,7 @@ const Header = ( imageSource ) => {
     <div className="pageHeader">
       <div id="myFuckingSiteHeader">
           <div className="image-container">
-              <img src="/media/logos/cspLogo7.png" id="simpleSiteLogo" alt="site logo"/>
+              <img src="/media/logos/cspLogo6.png" id="simpleSiteLogo" alt="site logo"/>
               <p id="mobileHeaderText">CAROLINE PITTMAN</p>
           </div>
 
