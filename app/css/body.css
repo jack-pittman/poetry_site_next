@@ -58,20 +58,20 @@
 }
 #contact {
     /* margin-top: 20px;  */
-    /* margin-bottom: 50px; */
+    margin-bottom: 50px;
 
     /* flex-basis: 66%; */
 
 }
 #about {
     margin-top: 20px; 
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 
 .quote-container {
     color: #7b7b79;
     color: var(--lighter-green); 
-    /* color: var(--dark-green); */
+    color: var(--darker-green);
 
 
     margin-top: 100px;  
@@ -93,7 +93,7 @@
     font-weight: bold;
 
 
-    font-size: 300%; 
+    font-size: 50px; 
     /* margin-top: 80px; */
 
     /* margin-bottom: 40px;  */
@@ -309,13 +309,14 @@ strong {
     }
     .quote-container {
 
-        /* margin-top: 50px; */
-        margin-bottom: 200px;
+        margin-top: 50vh;
+        /* margin-bottom: 200px; */
         margin-right: 100px;
         margin-left: 100px;
     }
     .quote-container h1 {
-        font-size: 400%;
+        font-size: 250%;
+        margin-bottom: -10vh;
     }
     .title-container {
         width: 100%;
