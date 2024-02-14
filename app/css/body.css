@@ -64,8 +64,8 @@
 
 }
 #about {
-    margin-top: 20px; 
-    margin-bottom: 10px;
+    margin-top: 80px; 
+    margin-bottom: 50px;
 }
 
 .quote-container {
@@ -143,35 +143,35 @@
 }
 
 #portrait-container {
+    /* position: absolute; */
+
     display: flex;
     justify-content: center;
     align-items: center;
 
-    margin-top: 75px;
-    margin-bottom: 75px;
+    /* margin-top: 75px; */
+    /* margin-bottom: 75px; */
+    /* margin-right: auto;  */
 
-    animation: fadeIn ease 5s; /* Adjust the duration as needed */
-
-
-}
-#portrait-container-hidden {
-    /* display: none; */
-    justify-content: center;
-    align-items: center;
-
-    margin-top: 50px;
-    margin-bottom: 75px;
-
-    animation: fadeIn ease 5s; /* Adjust the duration as needed */
+    /* animation: fadeIn ease 1s;  */
 
 
 }
 
 #portrait {
-    width: 30%;
-    height: 30%;
+    /* position: absolute; */
+    width: 200px;
+    height: 200px;
+
+    margin-top: -120px;
+    margin-bottom: 5%;
+
     border-radius: 50%;
     object-fit: cover; 
+
+    border: solid var(--dark-brown) 3px;
+    /* animation: fadeIn ease 1s;  */
+
 }
 .oval {
     width: 200px; /* Adjust the width as needed */
@@ -181,18 +181,13 @@
 
     margin-right: auto;
     margin-left: auto;
+    margin-top: 30px;
   }
 
 .bio-text-container {
-    /* margin-right: 30px;
-    margin-left: 30px; */
-    /* margin-top: 500px;  */
+    margin-top: 2%; 
 
     text-align: left;
-
-    /* background-color: #408F91;
-    background-color: #404040; */
-    /* background-color: var(--dark-gray); */
     background-color: var(--dust-brown);
 
 
@@ -333,7 +328,6 @@ strong {
     }
     .quote-container {
 
-        /* margin-top: 50vh; */
         /* margin-bottom: 200px; */
         margin-right: 100px;
         margin-left: 100px;
@@ -353,16 +347,17 @@ strong {
         margin-bottom: 0px;
     }
     #portrait-container {
-        display:none;
+        /* display:none; */
     }
     #portrait-container-hidden {
         display: flex;
     }
     #portrait {
-        width: 50%;
-        height: 50%;
+        /* width: 50%;
+        height: 50%; */
         border-radius: 50%; /* Use 50% to create a circular shape */
         object-fit: cover; /* Prevent stretching, use cropping instead */
+        margin-top: -90px;
     }
     .oval {
         width: 200px; /* Adjust the width as needed */

@@ -17,10 +17,7 @@ export default function Page() {
         <div className="body">
             <div className="canvas">
                 <div className="accent-container">
-                    <div className='contact-row'>
-                        <div id="portrait-container">
-                            <img src="/media/images/portrait.jpeg" id="portrait" alt="Portait of Caroline Pittman."/>
-                        </div>
+                    <div className='contact-row'>                     
                         <div className="bio-text-container" id="contact">
                             <div className="contact-button">
                                 <p>contact</p>
@@ -28,10 +25,14 @@ export default function Page() {
                             <p id="bodyText">
                                 For readings, lectures, classroom visits, or requests for work, contact me at csppoetry@gmail.com
                                 <br/>
+                                <br/>
 
                             </p>
                             <br/>
                         </div>
+                        <div id="portrait-container">
+                            <img src="/media/images/portrait2.jpeg" id="portrait" alt="Portait of Caroline Pittman."/>
+                        </div>   
 
                     </div>
                 </div>
