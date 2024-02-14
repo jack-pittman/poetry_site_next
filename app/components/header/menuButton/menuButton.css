@@ -49,10 +49,10 @@
   }
   .overlay p {
     font-family: 'Arial';
-    /* font-family: 'Futura'; */
+    font-family: 'Futura';
 
     font-size: 120%;
-    font-weight: medium;
+    font-weight: lighter;
 
     margin-right: 6vmin;
     margin-left: 6vmin;

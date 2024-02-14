@@ -31,7 +31,7 @@ export default function Page() {
                             <br/>
                         </div>
                         <div id="portrait-container">
-                            <img src="/media/images/portrait2.jpeg" id="portrait" alt="Portait of Caroline Pittman."/>
+                            <img src="/media/images/portrait3.jpeg" id="portrait" alt="Portait of Caroline Pittman."/>
                         </div>   
 
                     </div>
