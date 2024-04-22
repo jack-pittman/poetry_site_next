@@ -30,9 +30,9 @@ export default function Page() {
                             </p>
                             <br/>
                         </div>
-                        <div id="portrait-container">
+                        {/* <div id="portrait-container">
                             <img src="/media/images/portrait3.jpeg" id="portrait" alt="Portait of Caroline Pittman."/>
-                        </div>   
+                        </div>    */}
 
                     </div>
                 </div>
